@@ -1,0 +1,134 @@
+ul, li, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: black; }
+  a:hover {
+    text-decoration: none;
+    color: black; }
+
+.page-footer {
+  padding-top: 48px;
+  padding-bottom: 40px;
+  background-color: #2e2e2e; }
+  .page-footer__top {
+    padding-bottom: 34px;
+    border-bottom: 2px solid white; }
+  .page-footer__bottom {
+    padding-bottom: 34px;
+    border-bottom: 2px solid white; }
+  .page-footer__copyright {
+    text-align: center;
+    color: #bbb;
+    font-size: 0.875rem;
+    font-family: HelveticaNeueLight, sans-serif;
+    padding-top: 34px; }
+
+.footer-nav {
+  padding-left: 20px; }
+  .footer-nav__title {
+    color: white;
+    font-weight: normal;
+    font-family: HelveticaNeueRegular, sans-serif;
+    font-size: 1.4375rem;
+    position: relative; }
+    .footer-nav__title i {
+      position: absolute;
+      width: 21px;
+      height: 20px;
+      top: 4px;
+      background-position: center;
+      background-repeat: no-repeat;
+      left: -26px; }
+
+.wifi--white {
+  background-image: url(img/wifi--white.png); }
+
+.iptv--white {
+  background-image: url(img/iptv--white.png); }
+
+.telephone--white {
+  background-image: url(img/telephone--white.png); }
+
+.payment--white {
+  background-image: url(img/payment--white.png); }
+
+.b-footer-link {
+  font-family: HelveticaNeueLight, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  color: #0f9bf5; }
+
+.footer-contacts {
+  color: white; }
+  .footer-contacts__title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 4.5rem;
+    font-family: HelveticaNeueRegular, sans-serif; }
+  .footer-contacts__phones span {
+    margin-right: 30px;
+    font-family: HelveticaNeueLight, sans-serif;
+    font-size: 1.125rem; }
+  .footer-contacts__address {
+    color: #bbb;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-family: HelveticaNeueLight, sans-serif; }
+  .footer-contacts__social {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-family: HelveticaNeueLight, sans-serif; }
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  background-image: url(img/social-sprites.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+  margin-top: -10px; }
+  .social-icon:nth-of-type(1) {
+    margin-left: 60px; }
+
+.vk {
+  background-position: 0 0; }
+
+.facebook {
+  background-position: -47px 0; }
+
+.twitter {
+  background-position: -94px 0; }
+
+.geo {
+  float: left;
+  width: 16px;
+  height: 30px;
+  background-image: url(img/geo.png);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-right: 10px; }
+
+.footer-help {
+  padding-left: 20px; }
+  .footer-help__title {
+    font-family: HelveticaNeueRegular, sans-serif;
+    font-weight: nor;
+    font-size: 1.5rem;
+    line-height: 4.5rem;
+    color: white;
+    position: relative; }
+    .footer-help__title i {
+      position: absolute;
+      left: -25px;
+      top: 25px; }
+
+.help--white {
+  width: 18px;
+  height: 22px;
+  background-image: url(img/help--white.png); }

@@ -1,0 +1,294 @@
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666; }
+
+.tabs {
+  padding: 40px 0 32px 0; }
+  .tabs li {
+    float: left;
+    margin-right: 20px; }
+  .tabs__item {
+    display: block;
+    text-align: center;
+    min-height: 95px;
+    width: 85px;
+    background-image: url(img/tarif_sprites.png);
+    background-repeat: no-repeat;
+    position: relative; }
+    .tabs__item span {
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      left: 0;
+      right: 0;
+      color: black; }
+
+.rocket {
+  background-position: 20px 0; }
+
+.wifi {
+  background-position: -90px 0; }
+
+.iptv {
+  background-position: -200px 0; }
+
+.telephone {
+  background-position: -310px 0; }
+
+.payment {
+  background-position: -424px 0; }
+
+.abonent {
+  background-position: -535px 0; }
+
+.help {
+  background-position: -645px 0; }
+
+.b-price-rubles--small {
+  font-size: 0.75rem;
+  font-family: HelveticaNeueBold, sans-serif;
+  font-weight: bold;
+  word-spacing: -5px; }
+  .b-price-rubles--small span {
+    font-size: 1.625rem; }
+
+.b-sect-title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: HelveticaNeueLight, sans-serif; }
+
+.tarifs {
+  padding-top: 23px;
+  padding-bottom: 30px;
+  background-color: #adc3cd; }
+  .tarifs__title {
+    margin-bottom: 15px; }
+  .tarifs__bottom {
+    margin-top: 15px; }
+    .tarifs__bottom a {
+      padding-right: 15px;
+      text-decoration: underline; }
+
+.ticket-channels {
+  position: absolute;
+  width: 109px;
+  height: 27px;
+  right: -10px;
+  top: 10px;
+  background-image: url(img/12-channels.png); }
+
+.ticket-hit {
+  position: absolute;
+  width: 70px;
+  height: 26px;
+  background-image: url(img/hit.png);
+  right: -5px;
+  top: 40px; }
+
+.btn {
+  border: none;
+  color: #fff;
+  font-family: HelveticaNeueRegular, sans-serif;
+  font-weight: normal;
+  font-size: 1.125rem;
+  -webkit-border-radius: 21px;
+  border-radius: 21px;
+  padding: 6px 20px;
+  background-color: #0f9bf5; }
+
+.tarif-card {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 20%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  position: relative; }
+  .tarif-card__photo {
+    background-color: #f1f1f1;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    height: 200px;
+    margin-bottom: 8px; }
+  .tarif-card__name {
+    font-family: HelveticaNeueLight, sans-serif;
+    font-size: 1.25rem;
+    color: black;
+    text-decoration: underline; }
+
+.offers-tv {
+  background-color: #d7cdc7;
+  padding: 26px 0; }
+  .offers-tv__title {
+    margin-bottom: 15px; }
+
+.offer-card {
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding-bottom: 20px;
+  background-color: #fff;
+  position: relative; }
+  .offer-card__photo {
+    height: 186px;
+    background-color: #f2f2f2;
+    margin-bottom: 13px; }
+  .offer-card__name {
+    font-family: HelveticaNeueLight, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-decoration: underline;
+    padding: 0 15px;
+    margin-bottom: 23px; }
+  .offer-card__descr {
+    padding: 0 15px;
+    font-size: 1.0625rem;
+    line-height: 1.375rem;
+    font-family: HelveticaNeueLight, sans-serif;
+    margin-bottom: 23px; }
+  .offer-card__wrapper-btn {
+    padding: 0 10px; }
+
+.films {
+  padding: 24px 0;
+  background-color: #eaeaea; }
+  .films__nav-menu {
+    font-family: HelveticaNeueLight, sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 13px; }
+    .films__nav-menu li {
+      float: left;
+      margin-right: 23px; }
+      .films__nav-menu li a {
+        color: #0f9bf5;
+        text-decoration: underline; }
+        .films__nav-menu li a.active {
+          color: black;
+          text-decoration: none; }
+
+.film-card__photo {
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  height: 480px;
+  margin-bottom: 12px; }
+
+.film-card__name-film {
+  font-family: HelveticaNeueLight, sans-serif;
+  font-size: 1rem; }
+
+.film-card__name-serial {
+  font-family: HelveticaNeueLight, sans-serif;
+  font-size: 0.8125rem; }
+
+.film-card__time {
+  font-family: HelveticaNeueRegular, sans-serif;
+  font-size: 1.4375rem; }
+
+.film-card__logo {
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  vertical-align: -9%;
+  background-image: url(img/logo-chanel.png); }
+
+.news {
+  padding: 26px 0; }
+  .news__title {
+    margin-bottom: 18px; }
+  .news__bottom {
+    margin-top: 24px;
+    font-family: HelveticaNeueRegular, sans-serif;
+    font-size: 1.125rem;
+    text-decoration: underline; }
+
+.news-card {
+  font-family: HelveticaNeueLight, sans-serif; }
+  .news-card__time {
+    font-size: 1.125rem; }
+  .news-card__title {
+    font-size: 1.5rem; }
+  .news-card__text {
+    padding-right: 140px;
+    margin-bottom: 5px;
+    font-size: 0.875rem;
+    line-height: 1.125rem; }
+  .news-card__link {
+    text-decoration: underline; }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/
+  html {
+    font-size: 15px; }
+  .offer-card {
+    margin-bottom: 30px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 14px; }
+  /**/
+  .menu-button {
+    font-size: 0.8125rem; }
+    .menu-button:nth-of-type(3) {
+      margin-right: 4.28571%; }
+  .page-header__phones {
+    text-align: left;
+    font-size: 0.875rem; }
+    .page-header__phones span {
+      margin-right: 0.50891%; }
+  .nav-menu li a {
+    font-size: 1rem; }
+  .main-poster {
+    margin-top: 20px; }
+    .main-poster span {
+      border-bottom: none; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important; } }
+
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/
+  .container {
+    max-width: 1220px; } }

@@ -1,0 +1,164 @@
+ul, li, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: black; }
+  a:hover {
+    text-decoration: none;
+    color: black; }
+
+html {
+  font-size: 16px; }
+
+body {
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  font-family: "Helvitica", sans-serif;
+  overflow-x: hidden; }
+
+.hidden {
+  display: none; }
+
+.online-support {
+  position: fixed;
+  right: -5px;
+  top: 100px;
+  height: 184px;
+  width: 34px;
+  background-image: url(img/online-support.png); }
+
+.page-header__top {
+  padding-top: 27px;
+  padding-bottom: 17px;
+  background-color: #fff; }
+
+.page-header .logo {
+  display: inline-block;
+  margin-right: 7.57143%; }
+
+.page-header__phones {
+  font-size: 1.125rem;
+  text-align: right;
+  padding-top: 10px; }
+  .page-header__phones span {
+    margin-right: 7.63359%; }
+    .page-header__phones span:last-of-type {
+      margin-right: 0; }
+
+.page-header__main {
+  background-image: url(img/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white; }
+
+.menu-button {
+  font-family: HelveticaNeueBold, sans-serif;
+  font-size: 0.875em;
+  display: inline-block;
+  text-align: center;
+  margin-right: 7.57143%; }
+  .menu-button:last-of-type {
+    margin-right: 0; }
+  .menu-button a {
+    color: #010101; }
+  .menu-button:nth-of-type(3) {
+    margin-right: 13.71429%; }
+
+.menu-button--grey {
+  padding: 13px 17px;
+  -webkit-border-radius: 20px / 20px 20px 20px 20px;
+  border-radius: 20px / 20px 20px 20px 20px;
+  background-color: rgba(0, 0, 0, 0.05); }
+
+.main-offer {
+  width: 90.5%;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(109, 11, 133, 0.5)), to(rgba(4, 45, 80, 0.5)));
+  background-image: -webkit-linear-gradient(top left, rgba(109, 11, 133, 0.5) 0%, rgba(4, 45, 80, 0.5) 100%);
+  background-image: linear-gradient(top left, rgba(109, 11, 133, 0.5) 0%, rgba(4, 45, 80, 0.5) 100%);
+  padding: 40px 35px 40px 30px; }
+  .main-offer__title {
+    font-weight: normal;
+    font-family: HelveticaRegular, sans-serif;
+    font-size: 2.25rem;
+    line-height: 2.6875rem;
+    word-spacing: 1px;
+    margin-bottom: 28px; }
+  .main-offer__descr {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    padding-right: 62px;
+    margin-bottom: 32px; }
+  .main-offer__link {
+    margin-top: 15px; }
+    .main-offer__link a {
+      display: inline-block;
+      font-size: 1.5rem;
+      line-height: 1.25rem;
+      border-bottom: 1px solid #ffc436;
+      color: #ffc436; }
+
+.b-price-ruble {
+  font-size: 2.25rem; }
+  .b-price-ruble span {
+    font-size: 2.875rem;
+    margin-right: -10px; }
+
+.main-poster {
+  margin-top: 150px;
+  text-align: center; }
+  .main-poster__top {
+    font-family: HelveticaLight, sans-serif;
+    font-size: 0.875rem;
+    text-align: center;
+    color: #fff;
+    opacity: 0.6; }
+  .main-poster__title {
+    font-weight: normal;
+    font-family: HelveticaRegular, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 2rem; }
+    .main-poster__title span {
+      display: block;
+      white-space: nowrap;
+      padding-bottom: 11px;
+      border-bottom: 1px solid #fff; }
+  .main-poster__time {
+    text-align: center;
+    font-size: 1.125rem;
+    font-family: "HelveticaLight", sans-serif;
+    padding-top: 10px; }
+
+.nav-menu ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  list-style: none; }
+
+.nav-menu li {
+  width: 25%; }
+  .nav-menu li a {
+    display: block;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    color: #fff;
+    padding: 30px 0;
+    background-color: rgba(25, 114, 174, 0.8);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .nav-menu li a:hover {
+      text-decoration: none; }
+    .nav-menu li a.active {
+      background-color: rgba(15, 155, 245, 0.75); }

@@ -1,0 +1,156 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+{
+	/**/
+
+	html
+	{
+		font-size: 15px;
+	}
+
+	.offer-card
+	{
+		margin-bottom: 30px;
+	}
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+{
+	html
+	{
+		font-size: 14px;
+	}
+	/**/
+	.menu-button
+	{
+		font-size: rem(13px);
+		&:nth-of-type(3)
+		{
+			margin-right: 30px/700px * 100%;
+		}
+	}
+
+	.page-header__phones
+	{
+		text-align: left;
+		font-size: rem(14px);
+		span
+		{
+			margin-right: 2px/393px * 100%;
+		}
+	}
+
+	.nav-menu
+	{
+		li
+		{
+			a
+			{
+				font-size: rem(16px);
+			}
+		}
+	}
+
+	.main-poster
+	{
+		margin-top: 20px;
+
+		span
+		{
+			border-bottom: none;
+		}
+	}
+
+	}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+{
+
+
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated
+	{
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+{
+	/**/
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+{
+	/**/
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
+	/**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+	/**/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+	/**/
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+	/**/
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+	/**/
+	.container
+	{
+		max-width: 1220px;
+	}
+}
+

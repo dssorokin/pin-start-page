@@ -1,0 +1,380 @@
+@import "bourbon";
+@import "variable";
+@import "../app/bower_components/susy/sass/susy";
+
+$susy: (
+	columns: 15,
+	gutters: 1/3,
+	gutter-position:inside,
+	);
+
+*::-webkit-input-placeholder
+{
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder
+{
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder
+{
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder
+{
+	color: #666;
+	opacity: 1;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+{
+	color: #666;
+}
+body input:required:valid,
+body textarea:required:valid
+{
+	color: #666
+}
+
+//Custom Styles Here
+
+.tabs
+{
+	padding: 40px 0 32px 0;
+
+	li
+	{
+		float: left;
+		margin-right: 20px;
+	}
+
+	&__item
+	{
+		display: block;
+		text-align: center;
+		min-height: 95px;
+		width: 85px;
+		background-image: url(img/tarif_sprites.png);
+		background-repeat: no-repeat;
+		position: relative;
+		span
+		{
+			position: absolute;
+			bottom: 0;
+			text-align: center;
+			left: 0;
+			right: 0;
+			color: black;
+		}
+
+	}
+}
+
+.rocket
+{
+	background-position: 20px 0;
+}
+
+.wifi
+{
+	background-position: -90px 0;
+}
+
+.iptv
+{
+	background-position: -200px 0;
+}
+
+.telephone
+{
+	background-position: -310px 0;
+}
+
+.payment
+{
+	background-position: -424px 0;
+}
+
+.abonent
+{
+	background-position: -535px 0;
+}
+
+.help
+{
+	background-position: -645px 0;
+}
+
+.b-price-rubles--small
+{
+	font-size: rem(12px);
+	font-family: #{$bold-neue};
+	font-weight: bold;
+	word-spacing: -5px;
+	span
+	{
+		font-size: rem(26px);
+	}
+}
+
+.b-sect-title
+{
+	font-size: rem(24px);
+	font-weight: normal;
+	font-family: #{$light-neue};
+}
+
+
+.tarifs
+{
+	padding-top: 23px;
+	padding-bottom: 30px;
+	background-color: #adc3cd;
+
+
+	&__title
+	{
+		margin-bottom: 15px;
+	}
+
+	&__bottom
+	{
+		margin-top: 15px;
+		a
+		{
+			padding-right: 15px;
+			text-decoration: underline;
+		}
+	}
+}
+
+.ticket-channels
+{
+	position: absolute;
+	width: 109px;
+	height: 27px;
+	right: -10px;
+	top: 10px;
+	background-image: url(img/12-channels.png);
+}
+
+.ticket-hit
+{
+	position: absolute;
+	width: 70px;
+	height: 26px;
+
+	background-image: url(img/hit.png);
+
+	right: -5px;
+	top: 40px;
+}
+
+.btn
+{
+	border: none;
+	color: #fff;
+	font-family: #{$regular-neue};
+	font-weight: normal;
+	font-size: rem(18px);
+	border-radius: 21px;
+	padding: 6px 20px;
+	background-color: $button-color;
+}
+
+.tarif-card
+{
+	@include span(3);
+	position: relative;
+
+	&__photo
+	{
+		background-color: #f1f1f1;
+		box-shadow: 0 2px 4px rgba(0,0,0,.5);
+		height: 200px;
+		margin-bottom: 8px;
+	}
+
+	&__name
+	{
+		font-family: #{$light-neue};
+		font-size: rem(20px);
+		color: black;
+		text-decoration: underline;
+	}
+}
+
+.offers-tv
+{
+	background-color: #d7cdc7;
+	padding: 26px 0;
+
+	&__title
+	{
+		margin-bottom: 15px;
+	}
+}
+
+.offer-card
+{
+	box-shadow: 0 2px 4px rgba(0,0,0,.5);
+	padding-bottom: 20px;
+	background-color: #fff;
+	position: relative;
+
+	&__photo
+	{
+		height: 186px;
+		background-color: #f2f2f2;
+		margin-bottom: 13px;
+	}
+
+	&__name
+	{
+		font-family: #{$light-neue};
+		font-size: rem(20px);
+		line-height: rem(24px);
+		text-decoration: underline;
+		padding: 0 15px;
+		margin-bottom: 23px;
+	}
+
+	&__descr
+	{
+		padding: 0 15px;
+		font-size: rem(17px);
+		line-height: rem(22px);
+		font-family: #{$light-neue};
+		margin-bottom: 23px;
+	}
+
+	&__wrapper-btn
+	{
+		padding: 0 10px;
+	}
+}
+
+.films
+{
+	padding: 24px 0;
+	background-color: #eaeaea;
+
+	&__nav-menu
+	{
+		font-family: #{$light-neue};
+		font-size: rem(20px);
+		margin-bottom: 13px;
+
+		li
+		{
+			float: left;
+			margin-right: 23px;
+			a
+			{
+				color: $color-link;
+				text-decoration: underline;
+
+				&.active
+				{
+					color: black;
+					text-decoration: none;
+				}
+			}
+		}
+
+	}
+}
+
+
+.film-card
+{
+	&__photo
+	{
+		box-shadow: 0 2px 4px rgba(0,0,0,.5);
+		background-color: #fff;
+		height: 480px;
+		margin-bottom: 12px;
+	}
+
+	&__name-film
+	{
+		font-family: #{$light-neue};
+		font-size: rem(16px);
+	}
+
+	&__name-serial
+	{
+		font-family: #{$light-neue};
+		font-size: rem(13px);
+	}
+
+	&__time
+	{
+		font-family: #{$regular-neue};
+		font-size: rem(23px);
+	}
+
+	&__logo
+	{
+		display: inline-block;
+		width:100px;
+		height:25px;
+		vertical-align: -9%;
+		background-image: url(img/logo-chanel.png);
+	}
+}
+
+.news
+{
+	padding: 26px 0;
+
+	&__title
+	{
+		margin-bottom: 18px;
+	}
+
+	&__bottom
+	{
+		margin-top: 24px;
+		font-family: #{$regular-neue};
+		font-size: rem(18px);
+		text-decoration: underline;
+	}
+}
+
+
+.news-card
+{
+	font-family: #{$light-neue};
+
+	&__time
+	{
+		font-size: rem(18px);
+	}
+
+	&__title
+	{
+		font-size: rem(24px);
+	}
+
+	&__text
+	{
+		padding-right: 140px;
+		margin-bottom: 5px;
+		font-size: rem(14px);
+		line-height: rem(18px);
+	}
+
+	&__link
+	{
+		text-decoration: underline;
+	}
+
+
+}
+
+//ALWAYS END
+@import "media";
