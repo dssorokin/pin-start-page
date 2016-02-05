@@ -40,13 +40,14 @@ a {
       position: absolute;
       width: 21px;
       height: 20px;
-      top: 4px;
+      top: 7px;
       background-position: center;
       background-repeat: no-repeat;
       left: -26px; }
 
 .wifi--white {
-  background-image: url(img/wifi--white.png); }
+  background-image: url(img/wifi--white.png);
+  top: 4px !important; }
 
 .iptv--white {
   background-image: url(img/iptv--white.png); }
@@ -80,6 +81,7 @@ a {
     line-height: 1.125rem;
     font-family: HelveticaNeueLight, sans-serif; }
   .footer-contacts__social {
+    margin-top: 10px;
     font-size: 0.875rem;
     line-height: 1.125rem;
     font-family: HelveticaNeueLight, sans-serif; }
@@ -92,7 +94,7 @@ a {
   display: inline-block;
   margin-left: 10px;
   vertical-align: top;
-  margin-top: -10px; }
+  margin-top: -18px; }
   .social-icon:nth-of-type(1) {
     margin-left: 60px; }
 
@@ -132,3 +134,96 @@ a {
   width: 18px;
   height: 22px;
   background-image: url(img/help--white.png); }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/
+  html {
+    font-size: 15px; }
+  .offer-card {
+    margin-bottom: 30px; }
+  .offers-tv .col-sm-4 {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 14px; }
+  /**/
+  .menu-button {
+    font-size: 0.8125rem; }
+    .menu-button:nth-of-type(3) {
+      margin-right: 4.28571%; }
+  .page-header__phones {
+    text-align: left;
+    font-size: 0.875rem; }
+    .page-header__phones span {
+      margin-right: 12.27273%; }
+      .page-header__phones span:last-of-type {
+        margin-right: 0; }
+  .nav-menu li a {
+    font-size: 1rem; }
+  .main-poster {
+    margin-top: 20px; }
+    .main-poster span {
+      border-bottom: none; }
+  .film-card {
+    margin-bottom: 30px; }
+  .films__bottom {
+    margin-top: 0; }
+  .news-card {
+    margin-bottom: 30px; }
+  .news__bottom {
+    margin-top: 0; }
+  .footer-contacts__social {
+    margin-top: 20px; }
+  .footer-nav {
+    margin-bottom: 30px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 13px; }
+  .nav-menu li a {
+    font-size: 0.7rem;
+    line-height: 0.8rem; }
+  .page-header__phones {
+    text-align: right;
+    font-size: 1rem; }
+  .menu-button {
+    margin-right: 4.41176%;
+    margin-top: 20px; }
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/
+  .page-header__phones span {
+    margin-right: 10px; } }
+
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/
+  .container {
+    max-width: 1220px; }
+  .tabs__item span {
+    font-size: 1rem; } }

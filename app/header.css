@@ -26,6 +26,7 @@ body {
 
 .online-support {
   position: fixed;
+  z-index: 1000;
   right: -5px;
   top: 100px;
   height: 184px;
@@ -39,7 +40,9 @@ body {
 
 .page-header .logo {
   display: inline-block;
-  margin-right: 7.57143%; }
+  margin-right: 7.57143%;
+  position: relative;
+  top: -7px; }
 
 .page-header__phones {
   font-size: 1.125rem;
@@ -161,4 +164,4 @@ body {
     .nav-menu li a:hover {
       text-decoration: none; }
     .nav-menu li a.active {
-      background-color: rgba(15, 155, 245, 0.75); }
+      background-color: rgba(15, 155, 245, 0.75) !important; }

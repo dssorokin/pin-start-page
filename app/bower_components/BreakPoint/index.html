@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title></title>
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jquery.breakpoint.js"></script>
+	<style type="text/css">
+	.result{
+		margin-top: 100px;
+		padding: 100px;
+		font-size: 48px;
+		line-height: 70px;
+	}
+	.fork{
+		position: absolute;
+		top:0;
+		left: 0;
+		z-index: 2000;
+	}
+	</style>
+</head>
+<body>	
+	<div class="fork">
+		<a href='https://github.com/hasinhayder/BreakPoint' target='_blank'><img src="img/fork.png" alt="" ></a>
+	</div>
+	<div class="result">
+		<span style="color:#2980b9">Breakpoint</span>
+	</div>
+	<script>
+	$(document).ready(function(){
+		$.BreakPoint({
+			breakpoints:{
+				mobile:{max:480,load:true},
+				default:{min:480,max:1024, load:true},
+				wide:{min:1024,max:1200,load:true},
+				superwide:{min:1200,load:true},
+			}
+		});
+		$(window).bind("breakpoint",function(e){
+			if(console)
+			console.log(e.breakpoint);
+		});
+	});
+
+	
+	</script>
+</body>
+</html>

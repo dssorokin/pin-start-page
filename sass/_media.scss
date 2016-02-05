@@ -15,6 +15,15 @@
 		margin-bottom: 30px;
 	}
 
+	.offers-tv
+	{
+		.col-sm-4
+		{
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
 }
 
 
@@ -41,7 +50,12 @@
 		font-size: rem(14px);
 		span
 		{
-			margin-right: 2px/393px * 100%;
+			margin-right: 27px/220px * 100%;
+
+			&:last-of-type
+			{
+				margin-right: 0;
+			}
 		}
 	}
 
@@ -66,12 +80,75 @@
 		}
 	}
 
+
+	.film-card
+	{
+		margin-bottom: 30px;
 	}
+
+	.films__bottom
+	{
+		margin-top: 0;
+	}
+
+	.news-card
+	{
+		margin-bottom: 30px;
+	}
+
+	.news__bottom
+	{
+		margin-top: 0;
+	}
+
+	.footer-contacts__social
+	{
+		margin-top: 20px;
+	}
+
+	.footer-nav
+	{
+		margin-bottom: 30px;
+	}
+
+
+
+}
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
 {
+
+	html
+	{
+		font-size: 13px;
+	}
+
+	.nav-menu
+	{
+		li
+		{
+			a
+			{
+				font-size: 0.7rem;
+				line-height: 0.8rem;
+			}
+		}
+	}
+
+	.page-header__phones
+	{
+		text-align: right;
+		font-size: 1rem;
+
+	}
+
+	.menu-button
+	{
+		margin-right: 15px/340px * 100%;
+		margin-top: 20px;
+	}
 
 
 	
@@ -104,6 +181,15 @@
 @media only screen and (max-width : 480px)
 {
 	/**/
+	.page-header__phones
+	{
+		span
+		{
+			margin-right: 10px;
+		}
+
+	}
+
 }
 
 
@@ -152,5 +238,20 @@
 	{
 		max-width: 1220px;
 	}
+
+	.nav-menu
+	{
+		li
+		{
+			
+		}
+	}
+
+	.tabs__item span
+	{
+		font-size: rem(16px);
+	}
+
+
 }
 

@@ -1,0 +1,14 @@
+{
+  "name": "BreakPoint",
+  "homepage": "https://github.com/hasinhayder/BreakPoint",
+  "_release": "246a0fc8df",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "246a0fc8df0b527e97eace14dc737247530c4235"
+  },
+  "_source": "https://github.com/hasinhayder/BreakPoint.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/hasinhayder/BreakPoint.git",
+  "_direct": true
+}

@@ -14,6 +14,53 @@ $(document).ready(function() {
 		});
 	};
 
+	var state = false;
+
+	if($(window).width() > 1200)
+	{
+		
+		if(!$('.nav-menu ul').parent().hasClass('container'))
+		{
+			console.log('hi');
+			state = true;
+			$('.nav-menu ul').wrap("<div class='container'></div>");
+			$('.nav-menu').css('backgroundColor','rgba(25,114,174,.8)');
+			$('.nav-menu a').css('backgroundColor','transparent');
+		}
+	}
+
+	$(window).resize(function(){
+
+	if($(window).width() > 1200)
+	{
+		
+		if(!state)
+		{
+			console.log('hi');
+			state = true;
+			$('.nav-menu ul').wrap("<div class='container'></div>");
+			$('.nav-menu').css('backgroundColor','rgba(25,114,174,.8)');
+			$('.nav-menu a').css('backgroundColor','transparent');
+		}
+	}
+
+	else
+	{
+		if(state)
+		{
+			$('.nav-menu ul').unwrap();
+			$('.nav-menu').css('backgroundColor','transparent');
+			$('.nav-menu a').css('backgroundColor','rgba(25,114,174,.8)');
+			state = false;
+		}
+	}
+
+	});
+
+	
+	
+
+
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
 	$("#form").submit(function() {

@@ -47,7 +47,7 @@
 			position: absolute;
 			width: 21px;
 			height: 20px;
-			top: 4px;
+			top: 7px;
 			background-position: center;
 			background-repeat: no-repeat;
 			left: -26px;
@@ -58,6 +58,7 @@
 .wifi--white
 {
 	background-image: url(img/wifi--white.png);
+	top: 4px !important;
 }
 
 .iptv--white
@@ -114,6 +115,7 @@
 
 	&__social
 	{
+		margin-top: 10px;
 		font-size: rem(14px);
 		line-height: rem(18px);
 		font-family: #{$light-neue};
@@ -129,7 +131,7 @@
 	display:inline-block;
 	margin-left: 10px;
 	vertical-align: top;
-	margin-top: -10px;
+	margin-top: -18px;
 
 	&:nth-of-type(1)
 	{
@@ -190,3 +192,5 @@
 	height: 22px;
 	background-image: url(img/help--white.png);
 }
+
+@import "media";

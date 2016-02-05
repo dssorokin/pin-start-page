@@ -1,6 +1,7 @@
 @import "bourbon";
 @import "variable";
 @import "reset";
+@import "../app/bower_components/compass-breakpoint/stylesheets/breakpoint";
 
 html
 {
@@ -25,6 +26,7 @@ body
 .online-support
 {
 	position: fixed;
+	z-index: 1000;
 	right: -5px;
 	top: 100px;
 	height: 184px;
@@ -48,6 +50,8 @@ body
 	{
 		display: inline-block;
 		margin-right: 53px/700px * 100%;
+		position: relative;
+		top: -7px;
 	}
 
 	&__phones
@@ -217,13 +221,15 @@ body
 			padding: 30px 0;
 			background-color: rgba(25,114,174,.8);
 			transition:all 0.3s ease;
+
+			
 			&:hover
 			{
 				text-decoration: none;
 			}
 			&.active
 			{
-				background-color: rgba(15,155,245,0.75);
+				background-color: rgba(15,155,245,0.75) !important;
 			}
 		}
 	}
