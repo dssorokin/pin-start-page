@@ -71,10 +71,12 @@ a {
     font-weight: normal;
     line-height: 4.5rem;
     font-family: HelveticaNeueRegular, sans-serif; }
-  .footer-contacts__phones span {
-    margin-right: 30px;
-    font-family: HelveticaNeueLight, sans-serif;
-    font-size: 1.125rem; }
+  .footer-contacts__phones {
+    margin-bottom: 10px; }
+    .footer-contacts__phones span {
+      margin-right: 30px;
+      font-family: HelveticaNeueLight, sans-serif;
+      font-size: 1.125rem; }
   .footer-contacts__address {
     color: #bbb;
     font-size: 0.875rem;
@@ -128,7 +130,7 @@ a {
     .footer-help__title i {
       position: absolute;
       left: -25px;
-      top: 25px; }
+      top: 20px; }
 
 .help--white {
   width: 18px;
