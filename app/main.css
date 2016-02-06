@@ -103,6 +103,7 @@ body textarea:required:valid {
   width: 70px;
   height: 26px;
   background-image: url(img/hit.png);
+  background-repeat: no-repeat;
   right: -10px;
   top: 40px; }
 
@@ -362,3 +363,7 @@ body textarea:required:valid {
     max-width: 1220px; }
   .tabs__item span {
     font-size: 1rem; } }
+
+@media only screen and (min-width: 2000px) {
+  html {
+    font-size: 16px; } }

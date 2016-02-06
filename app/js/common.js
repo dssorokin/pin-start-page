@@ -16,12 +16,14 @@ $(document).ready(function() {
 
 	var state = false;
 
+	console.log($(window).width());
+
 	if($(window).width() > 1200)
 	{
 		
 		if(!$('.nav-menu ul').parent().hasClass('container'))
 		{
-			console.log('hi');
+			
 			state = true;
 			$('.nav-menu ul').wrap("<div class='container'></div>");
 			$('.nav-menu').css('backgroundColor','rgba(25,114,174,.8)');
@@ -56,6 +58,16 @@ $(document).ready(function() {
 	}
 
 	});
+
+	$(window).bind('scroll',function(event){
+		console.log(window.pageYOffset);
+
+		setTimeout(function(){
+			$('.online-support').css({"top":window.pageYOffset+250+'px'});
+		},200);
+	});
+
+
 
 	
 	

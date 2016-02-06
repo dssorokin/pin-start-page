@@ -25,13 +25,14 @@ body
 
 .online-support
 {
-	position: fixed;
+	position: absolute;
 	z-index: 1000;
 	right: -5px;
-	top: 100px;
+	top: 250px;
 	height: 184px;
 	width: 34px;
 	background-image: url(img/online-support.png);
+	transition: all 0.3s ease;
 }
 
 
