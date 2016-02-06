@@ -331,6 +331,8 @@ body textarea:required:valid {
     margin-top: 20px; }
   .tabs__item {
     margin-bottom: 20px; }
+  .tarif-card {
+    margin-bottom: 20px; }
   /*Disable Animation on Mobile Devices*/
   .animated {
     /*CSS transitions*/
