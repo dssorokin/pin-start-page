@@ -149,6 +149,8 @@ body textarea:required:valid {
 .offers-tv {
   background-color: #d7cdc7;
   padding: 26px 0; }
+  .offers-tv .col-md-12 {
+    padding-left: 10px; }
   .offers-tv__title {
     margin-bottom: 15px; }
 
@@ -357,7 +359,11 @@ body textarea:required:valid {
 @media only screen and (max-width: 480px) {
   /**/
   .page-header__phones span {
-    margin-right: 10px; } }
+    margin-right: 10px; }
+  .films__nav-menu {
+    margin-bottom: 0; }
+    .films__nav-menu li {
+      margin-bottom: 10px; } }
 
 /* Custom, iPhone Retina */
 /*==========  Mobile First Method  ==========*/

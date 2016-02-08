@@ -227,6 +227,11 @@ body textarea:required:valid
 	background-color: #d7cdc7;
 	padding: 26px 0;
 
+	.col-md-12
+	{
+		padding-left: 10px;
+	}
+
 	&__title
 	{
 		margin-bottom: 15px;
