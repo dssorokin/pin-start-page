@@ -285,6 +285,12 @@ body textarea:required:valid
 	padding: 24px 0;
 	background-color: #eaeaea;
 
+	.col-sm-6
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
 	&__nav-menu
 	{
 		font-family: #{$light-neue};

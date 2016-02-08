@@ -184,6 +184,9 @@ body textarea:required:valid {
 .films {
   padding: 24px 0;
   background-color: #eaeaea; }
+  .films .col-sm-6 {
+    padding-left: 10px;
+    padding-right: 10px; }
   .films__nav-menu {
     font-family: HelveticaNeueLight, sans-serif;
     font-size: 1.25rem;
@@ -279,7 +282,9 @@ body textarea:required:valid {
     margin-bottom: 30px; }
   .offers-tv .col-sm-4 {
     padding-left: 10px;
-    padding-right: 10px; } }
+    padding-right: 10px; }
+  .footer-contacts__address {
+    font-size: 0.8125rem; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -314,7 +319,9 @@ body textarea:required:valid {
   .footer-contacts__social {
     margin-top: 20px; }
   .footer-nav {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .footer-contacts__address {
+    font-size: 0.875rem; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
